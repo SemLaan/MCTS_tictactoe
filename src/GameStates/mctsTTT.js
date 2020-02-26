@@ -19,7 +19,7 @@ class mctsTTT extends GameObjectList {
 
     if (this.game.gameOver) {
 
-      let info = ["mctsTTT" + this.player, this.game.winner];
+      let info = ["mctsTTT" + this.player, this.game.winner * this.player];
 
       gameEnvironment.setGameState("gameOver", info);
 
